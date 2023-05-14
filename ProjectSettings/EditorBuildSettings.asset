@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/RobotSphereRaycast/Demo/Scenes/RobotAnimations.unity
     guid: 938ace6a044a848858364788d9cac322
+  - enabled: 1
+    path: Assets/RobotSphereRaycast/Demo/Scenes/MyAnimation.unity
+    guid: 9847f9a93af1e504abd7c8ce099a7e76
   m_configObjects: {}

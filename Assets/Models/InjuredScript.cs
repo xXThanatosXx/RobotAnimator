@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 using TMPro;
 
 public class InjuredScript : MonoBehaviour
@@ -109,6 +108,7 @@ public class InjuredScript : MonoBehaviour
         if (movementDirection != Vector3.zero)
         {
             animator.SetBool("Walk_Anim", true);
+            //animator.SetBool("Runing", true);
             //Crea una rotación con las direcciones en X,Y,Z.
             // eje Z se alineará con forward, el eje X se alineará con el producto cruz entre forward y up, y el eje Y se alineará con el producto cruzado entre Z y X.
             Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
@@ -119,6 +119,7 @@ public class InjuredScript : MonoBehaviour
         else
         {
             animator.SetBool("Walk_Anim", false);
+
 
         }
 
